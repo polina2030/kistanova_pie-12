@@ -1,6 +1,6 @@
-a = [5,1,-5,-7,0]
+massiv = [5,1,-5,-7,0]
 flag = 0
-for i in range(len(a)):
-    if a[i]>0:
-        flag =flag-a[i]
+for i in range(len(massiv)):
+    if massiv[i]>0:
+        flag =flag+massiv[i]
 print(flag)
