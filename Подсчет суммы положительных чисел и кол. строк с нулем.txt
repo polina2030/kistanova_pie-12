@@ -1,0 +1,22 @@
+massiv = [[1, 0, 0],
+           [1, -7, 1],
+           [1, 0, 0]]
+result = 0
+
+# Первый фрагмент: подсчет строк, содержащих 0
+for i in range(len(massiv)):
+    for j in range(len(massiv[i])):
+        if massiv[i][j] == 0:
+            result += 1
+            break
+
+print("Количество строк, содержащих хотя бы один 0: ", result)
+
+# Второй фрагмент: работа с одномерным массивом
+flag = 0
+for i in range(len(massiv)):
+    for j in range(len(massiv[i])):
+        if massiv[i][j] > 0:
+            flag += massiv[i][j]
+
+print("Результат обработки одномерного массива: ", flag)
