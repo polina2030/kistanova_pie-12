@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Лабораторные работы">
+    <meta name="author" content="Кистанова Полина Сергеевна">
+    <link rel="stylesheet" href="../assets/css/style2.css">
+    <title>Лабораторные работы</title>
+    <script src="../assets/js/file3.js"></script>
+    <script src="../assets/js/menu.js"></script>
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="hamburger-menu">
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Лабораторная работа 2</a></li>
+                <li><a href="laba3.html">Лабораторная работа 3</a></li>
+                <li><a href="laba4.html">Лабораторная работа 4</a></li>
+                <li><a href="game.html">Лабораторная работа 5</a></li>
+                <li><a href="laba6_API.html">Лабораторная работа 6</a></li>
+            </ul>
+        </nav>
+        <div class = "titul_img">
+            <div class = "title">
+                <p>ФИО студента: <br>Кистанова Полина Сергеевна</p>
+                <p>Лабораторная работа №3</p>
+                <p>Вариант-9</p>
+                
+                <!--<div class="dropdown">
+                    <input type="checkbox" id="dropdown_id" class="dropdown_id">
+                    <label for="dropdown_id" class="dropdown_btn">Выберите лабораторную работу</label>
+                    <div class="dropdown-content">
+                        <a href="../index.html">Лаб. работа 2</a>
+                        <a href="laba3.html">Лаб. работа 3</a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class = "lab">
+            <div class = "list_lab">
+                <div class = "task">
+                    <h2>Задание 1</h2>
+                    <p class = "text_not_center">Даны два целых числа: A, B. Проверить 
+                    истинность высказывания: «Хотя бы одно из чисел A и B нечетное».</p>
+                    
+                    <input id="task1_1" placeholder="Введите число a">
+                    <input id="task1_2" placeholder="Введите число b">
+                    
+                    <button class="btn" onclick="showParity()">Выполнить</button>
+                    <div class = "result"> 
+                        
+                        <p id = "btn_input">Ответ: числа не введены</p>
+                    </div>
+                </div>
+                
+                
+                <div class = "task">
+                    <h2>Задание 2</h2>
+                    <p class = "text_not_center">Даны две переменные вещественного типа: 
+                    A, B. Перераспределить значения данных переменных так, чтобы в A 
+                    оказалось меньшее из значений, а в B — большее. Вывести новые значения 
+                    переменных A и B.</p>
+                    <input id="task2_1" placeholder="Введите число a">
+                    <input id="task2_2" placeholder="Введите число b">
+                    <button class="btn" onclick="showSorting()">Выполнить</button>
+                    <div class = "result">
+                        <p id = "btn_input2">Ответ: числа не введены</p>
+                    </div>
+                </div>
+                
+                <div class = "task">
+                    <h2>Задание 3</h2>
+                    <p class = "text_not_center">Вычислить значение функции y=f(x) 
+                    при произвольных значениях x. a = 1.8, b = 3.3</p>
+                
+                    <img src="../assets/img/zada3.png" alt="Функция для 3 задания" class = "function_img">
+                    <input id="task3_1" placeholder="Введите число x">
+                    
+                    <button class="btn" onclick="calculating_func()">Выполнить</button>
+                    <div class = "result"> 
+                        
+                        <p id = "btn_input3">Ответ: числа не введены</p>
+                    </div>
+                </div>
+                
+                <div class = "task">
+                    <h2>Задание 4</h2>
+                    <p class = "text_not_center">Вычислить значение функции y=f(x) при 
+                    значениях x: 3, 4, 6. Для вычисления значения функции 
+                    использовать оператор switch.</p>
+                    <img src="../assets/img/zada4.png" alt="Функция для 4 задания" class = "function_img">
+                    <input id="task4_1" placeholder="Введите число x">
+                    
+                    <button class="btn" onclick="calculating_func_switch()">Выполнить</button>
+                    <div class = "result"> 
+                        
+                        <p id = "btn_input4">Ответ: числа не введены</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        <p>Все права защищены. Произведено в общежитии №4</p>
+    </footer>
+    
+
+</body>
+</html>
