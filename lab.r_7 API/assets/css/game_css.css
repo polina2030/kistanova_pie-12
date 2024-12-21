@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+
+    background-image: url("../img/fon_derevo.jpg");
+
+}
+
+img{
+    width: 46%;
+    margin: 3% 26% 10px 26%;
+    border-radius: 20px;
+    border: 2px solid #FFFFFF;
+}
+#choices{
+    text-align: center;
+}
+
+#game {
+    padding: 20px;
+    margin: 0 9%;
+    border-radius: 8px;
+    background-color: white;
+    position: absolute;
+    font-size: 20px;
+    bottom: 0; 
+
+   
+}
+
+button {
+    margin: 10px 30px;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid #333;
+}
+
+
+
+@media (min-width: 750px) and (max-width: 1000px){
+    img{
+        width: 70%;
+        margin: 10% 14% 0;
+    }
+}
+
+@media (max-width: 750px){
+    img{
+        width: 80%;
+        margin: 15% 9% 0;
+    }
+    #game {
+        font-size: 10px;
+        padding: 20px;
+        margin: 10% 9% 0;
+        border-radius: 8px;
+        background-color: white;
+        position: static;
+        font-size: 20px;
+   
+    }
+}

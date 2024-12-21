@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Лабораторные работы">
+    <meta name="author" content="Кистанова Полина Сергеевна">
+    <link rel="stylesheet" href="../assets/css/style2_BEM.css">
+    <title>Лабораторные работы</title>
+    <script src="../assets/js/js_4lb.js"></script>
+    <script src="../assets/js/menu.js"></script>
+    
+</head>
+<body class="page">
+    <header class="header">
+        <nav class = "nav">
+            <div class="nav__hamburger-menu">
+                <div class="nav__hamburger"></div> 
+                <div class="nav__hamburger"></div>
+                <div class="nav__hamburger"></div>
+            </div>
+            <ul class="nav__nav-links">
+                <li class = "nav__list">
+                    <a href="../index.html" class = "nav__link">Лабораторная работа 2</a></li>
+                <li class = "nav__list">
+                    <a href="laba3.html" class = "nav__link">Лабораторная работа 3</a></li>
+                <li class = "nav__list">
+                    <a href="laba4.html" class = "nav__link">Лабораторная работа 4</a></li>
+            </ul>
+        </nav>
+        
+        <div class = "title-img">
+            <div class = "title">
+                <p class = "title__title-text">ФИО студента: <br>Кистанова Полина Сергеевна</p>
+                <p class = "title__title-text">Лабораторная работа №4</p>
+                <p class = "title__title-text">Вариант-9</p>
+            </div>
+        </div>
+    </header>
+    <main class = "main">
+        <div class = "laboratory-work">
+            <div class = "list_lab">
+                <div class = "task">
+                    <h2>Задание 1</h2>
+                    <p class = "text_not_center">Дано  целое  число  N  и набор  из N  
+                    целых  чисел.  Если  в наборе имеются  положительные  числа,  то  
+                    вывести  TRUE;  в  противном  случае  вывести FALSE.</p>
+                    
+                    <input id="task4_1_1" placeholder="Введите число a">
+                    <input id="task4_1_2" placeholder="Введите число b">
+                    
+                    <button class="btn" onclick="show()">Выполнить</button>
+                    <div class = "result"> 
+                        
+                        <p id = "btn_input">Ответ: числа не введены</p>
+                    </div>
+                </div>
+                
+                
+                <div class = "task">
+                    <h2>Задание 2</h2>
+                    <p class = "text_not_center">Даны два целых числа A и B (A меньше B). 
+                    Найти сумму квадратов всех целых чисел от A до B включительно.</p>
+                    <input id="task4_2_1" placeholder="Введите число a">
+                    <input id="task4_2_2" placeholder="Введите число b">
+                    <button class="btn" onclick="showSquare()">Выполнить</button>
+                    <div class = "result">
+                        <p id = "btn_input2">Ответ: числа не введены</p>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        
+        
+    </main>
+    <footer class="footer">
+        <p>Все права защищены. Произведено в общежитии №4</p>
+    </footer>
+    
+
+</body>
+</html>
